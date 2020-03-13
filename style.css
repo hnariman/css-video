@@ -1,0 +1,13 @@
+.advertisemenet {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    color:#f1f1f1;
+}
+
+.vidos {
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+}
+
