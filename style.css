@@ -1,17 +1,39 @@
 
-p.advertisemenet {
+p.advertisement {
     display: flex;
     position: fixed;
-    top: 200px;
+    top: 100px;
     color: white;
     font-size: 32px;
 }
 
-
-.vidos {
-    z-index: 1;
-    width: 100%;
-    position: fixed;
-    background: rgba(0, 0, 0, 0.5);
+p.advertisement:hover {
+    color: red;
 }
 
+.vidos {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+button {
+    position: fixed;
+    top: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+svg {
+
+    position: absolute;
+    fill:rgba(0, 0, 0, 0.2);
+    /* stroke:white; */
+    stroke-width:1;
+    z-index: 1;
+}
+
+svg:hover {
+    fill: rgba(255, 0, 0, 0.7);
+    transition: fill .4s ease;
+}
