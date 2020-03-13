@@ -1,13 +1,17 @@
-.advertisemenet {
-    position: absolute;
-    z-index: 2;
-    bottom: 0;
-    color:#f1f1f1;
+
+p.advertisemenet {
+    display: flex;
+    position: fixed;
+    top: 200px;
+    color: white;
+    font-size: 32px;
 }
 
+
 .vidos {
+    z-index: 1;
     width: 100%;
-    position: absolute;
+    position: fixed;
     background: rgba(0, 0, 0, 0.5);
 }
 
