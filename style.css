@@ -3,7 +3,7 @@ p.advertisement {
     display: flex;
     position: fixed;
     top: 100px;
-    color: red;
+    color: white;
     font-size: 32px;
 }
 
@@ -27,5 +27,5 @@ polygon {
 
 polygon:hover {
     fill: rgba(255, 0, 0, 0.7);
-    transition: fill 1s ease;
+    transition: fill 0.4s ease;
 }
