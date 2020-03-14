@@ -7,9 +7,9 @@ p.advertisement {
     font-size: 32px;
 }
 
-p.advertisement:hover {
+/* p.advertisement:hover {
     color: red;
-}
+} */
 
 .vidos {
     z-index: -1;
@@ -19,7 +19,7 @@ p.advertisement:hover {
 }
 
 polygon {
-    position: absolute;
+    position: fixed;
     fill:rgba(0, 0, 0, 0.2);
     stroke-width:1;
     z-index: 1;
