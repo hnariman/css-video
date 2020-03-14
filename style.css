@@ -3,7 +3,7 @@ p.advertisement {
     display: flex;
     position: fixed;
     top: 100px;
-    color: white;
+    color: red;
     font-size: 32px;
 }
 
@@ -18,22 +18,14 @@ p.advertisement:hover {
     background: rgba(0, 0, 0, 0.7);
 }
 
-button {
-    position: fixed;
-    top: 300px;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-svg {
-
+polygon {
     position: absolute;
     fill:rgba(0, 0, 0, 0.2);
-    /* stroke:white; */
     stroke-width:1;
     z-index: 1;
 }
 
-svg:hover {
+polygon:hover {
     fill: rgba(255, 0, 0, 0.7);
-    transition: fill .4s ease;
+    transition: fill 1s ease;
 }
