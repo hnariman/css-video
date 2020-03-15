@@ -18,11 +18,15 @@ p.advertisement {
     background: rgba(0, 0, 0, 0.7);
 }
 
+svg {
+    width: 1000vw;
+}
+
+
 polygon {
     position: fixed;
     fill:rgba(0, 0, 0, 0.2);
     stroke-width:1;
-    z-index: 1;
 }
 
 polygon:hover {
