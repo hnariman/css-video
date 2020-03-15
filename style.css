@@ -7,9 +7,9 @@ p.advertisement {
     font-size: 32px;
 }
 
-/* p.advertisement:hover {
+p.advertisement:hover {
     color: red;
-} */
+}
 
 .vidos {
     z-index: -1;
